@@ -1,0 +1,105 @@
+body{
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+/*Navigation bar*/
+.navbar {
+    background-color: rgb(79, 11, 57);
+    overflow: hidden;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: right;
+    display: block;
+    color: rgb(252, 249, 233);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: rgb(252, 249, 233);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: rgb(255, 215, 0);
+    color: rgb(255, 255, 255);
+  }
+ 
+  /*Home Image*/
+  .homeimg {
+    background-image: url("images/ladyjacket.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*width: 1300px;*/
+    height: 800px;
+    object-fit: cover;
+  }
+
+  /*LOGO*/
+  .navbar a#logo{
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    
+    padding-top: 9px;
+    padding-bottom: 0px;
+  }
+  .navbar a#logo:hover{
+    background-color: rgb(79, 11, 57);
+    color: #fff;
+  }
+  /*Opening Message*/
+  #sesame{
+    text-align: center;
+    background-color: rgb(79, 11, 57, 0.2);
+    margin-bottom: 40px;
+  }
+  #open{
+    font-size: 60px;
+    height: 400px;
+    width: 700px;
+    background-color: rgb(0, 0, 0, 0);
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+  /* Page content 
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0)
+.sticky + .content {
+  padding-top: 60px;
+}
+*/
